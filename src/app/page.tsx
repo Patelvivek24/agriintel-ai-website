@@ -1,6 +1,6 @@
 import { Header } from "@/components/common/Header";
 import { Hero } from "@/components/sections/Hero";
-import { Features } from "@/components/sections/Features";
+import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { DiseaseDetectionShowcase } from "@/components/sections/DiseaseDetectionShowcase";
 import { Challenges } from "@/components/sections/Challenges";
 import type { Metadata } from "next";
@@ -21,7 +21,7 @@ export default function Home() {
     <main className="min-h-screen bg-background font-sans antialiased">
       <Header />
       <Hero />
-      <Features />
+      <FeatureGrid />
       <DiseaseDetectionShowcase />
       <Challenges />
     </main>
