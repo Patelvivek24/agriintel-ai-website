@@ -2,6 +2,7 @@ import { Header } from "@/components/common/Header";
 import { Hero } from "@/components/sections/Hero";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { DiseaseDetectionShowcase } from "@/components/sections/DiseaseDetectionShowcase";
+import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Challenges } from "@/components/sections/Challenges";
 import type { Metadata } from "next";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Hero />
       <FeatureGrid />
       <DiseaseDetectionShowcase />
+      <HowItWorks />
       <Challenges />
     </main>
   );
