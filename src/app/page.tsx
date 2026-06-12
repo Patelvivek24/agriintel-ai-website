@@ -8,6 +8,7 @@ import { Stats } from "@/components/sections/Stats";
 import { Challenges } from "@/components/sections/Challenges";
 import { SuccessStories } from "@/components/sections/SuccessStories";
 import { Pricing } from "@/components/sections/Pricing";
+import { Footer } from "@/components/common/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -34,6 +35,8 @@ export default function Home() {
       <Challenges />
       <SuccessStories />
       <Pricing />
+      <Footer />
     </main>
   );
 }
+
