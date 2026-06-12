@@ -4,6 +4,7 @@ import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { DiseaseDetectionShowcase } from "@/components/sections/DiseaseDetectionShowcase";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Stakeholders } from "@/components/sections/Stakeholders";
+import { Stats } from "@/components/sections/Stats";
 import { Challenges } from "@/components/sections/Challenges";
 import type { Metadata } from "next";
 
@@ -27,6 +28,7 @@ export default function Home() {
       <DiseaseDetectionShowcase />
       <HowItWorks />
       <Stakeholders />
+      <Stats />
       <Challenges />
     </main>
   );
