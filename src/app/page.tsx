@@ -6,6 +6,7 @@ import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Stakeholders } from "@/components/sections/Stakeholders";
 import { Stats } from "@/components/sections/Stats";
 import { Challenges } from "@/components/sections/Challenges";
+import { SuccessStories } from "@/components/sections/SuccessStories";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -30,6 +31,7 @@ export default function Home() {
       <Stakeholders />
       <Stats />
       <Challenges />
+      <SuccessStories />
     </main>
   );
 }
