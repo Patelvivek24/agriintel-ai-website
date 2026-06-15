@@ -8,6 +8,7 @@ import { Stats } from "@/components/sections/Stats";
 import { Challenges } from "@/components/sections/Challenges";
 import { SuccessStories } from "@/components/sections/SuccessStories";
 import { Pricing } from "@/components/sections/Pricing";
+import { FAQ } from "@/components/sections/FAQ";
 import { Footer } from "@/components/common/Footer";
 import type { Metadata } from "next";
 
@@ -35,6 +36,7 @@ export default function Home() {
       <Challenges />
       <SuccessStories />
       <Pricing />
+      <FAQ />
       <Footer />
     </main>
   );
